@@ -1,5 +1,1 @@
-export default {
-  fetch() {
-    return Response.redirect("https://bsky.app/profile/kt3k.org");
-  }
-}
+Deno.serve(() => Response.redirect("https://bsky.app/profile/kt3k.org"));
